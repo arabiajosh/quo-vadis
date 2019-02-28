@@ -8,6 +8,7 @@ public class PlayerManager : MonoBehaviour
     public float acceleration;
 
     public Rigidbody2D rb;
+    public BoxCollider2D col;
     public Animator anim;
     public SpriteRenderer sr;
 

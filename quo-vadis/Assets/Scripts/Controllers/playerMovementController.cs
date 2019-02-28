@@ -10,9 +10,12 @@ public class playerMovementController : MonoBehaviour
 
     public PlayerManager playerManager;
     private Rigidbody2D rb;
+    private Animator anim;
 
     private float xSpeed = 0;
     private float ySpeed = 0;
+
+    private static readonly float EPSILON = .005f;
 
     // Start is called before the first frame update
     void Start()
@@ -20,16 +23,23 @@ public class playerMovementController : MonoBehaviour
         maxSpeed = playerManager.maxSpeed;
         acceleration = playerManager.acceleration;
         rb = playerManager.rb;
+        anim = playerManager.anim;
     }
 
     // Update is called once per frame
     void Update()
     {
-        move();
+        Move();
         rb.velocity = new Vector2(xSpeed, ySpeed);
+        SetAnimationParameters();
     }
 
-    private void move()
+
+    /**
+     * Implements 8-directional player movement using the WASD keyscheme. Movement
+     * parameters are specified in the PlayerManager.cs script.
+     */
+    private void Move()
     {
         if (Input.GetKey(KeyCode.D))
         {
@@ -74,5 +84,32 @@ public class playerMovementController : MonoBehaviour
                 ySpeed = Mathf.Clamp(ySpeed + acceleration, -maxSpeed, 0f);
             }
         }
+    }
+
+    /**
+    * Sets parameters in the animator associated with this game object such that
+    * the animation state matches the direction of movement of the player.  
+    */
+    private void SetAnimationParameters()
+    {
+        anim.SetFloat("xSpeed", xSpeed);
+        anim.SetFloat("ySpeed", ySpeed);
+        if(System.Math.Abs(xSpeed) < EPSILON)
+        {
+            anim.SetBool("isIdleX", true);
+        }
+        else
+        {
+            anim.SetBool("isIdleX", false);
+        }
+        if (System.Math.Abs(ySpeed) < EPSILON)
+        {
+            anim.SetBool("isIdleY", true);
+        }
+        else
+        {
+            anim.SetBool("isIdleY", false);
+        }
+
     }
 }

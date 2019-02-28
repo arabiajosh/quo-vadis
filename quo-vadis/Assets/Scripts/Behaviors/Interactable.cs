@@ -2,19 +2,24 @@
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEditor;
 
 public class Interactable : MonoBehaviour
 {
 
     private DialogueData dialogue;
 
-    private string[] dialogueOptions;
-    private int currentDialogueIndex;
+    public string dialoguePath;
+    protected string[] dialogueOptions;
+    protected int currentDialogueIndex;
+
+    public UIManager UI;
 
     // Start is called before the first frame update
     void Start()
     {
         currentDialogueIndex = 0;
+        loadDialogueOptions(dialoguePath);
     }
 
     // Update is called once per frame
@@ -23,7 +28,7 @@ public class Interactable : MonoBehaviour
         
     }
 
-    private void loadDialogueOptions(string dialogueFilePath)
+    protected void loadDialogueOptions(string dialogueFilePath)
     {
         string filePath = Path.Combine(Application.streamingAssetsPath, dialogueFilePath);
 
@@ -59,5 +64,31 @@ public class Interactable : MonoBehaviour
         currentDialogueIndex++;
     }
 
+    protected void displayDialogue(string[] dialogueToDisplay)
+    {
+        UI.DisplayText(dialogueToDisplay);
+    }
+
+    protected void displayDialogue(string dialogueToDisplay)
+    {
+        UI.DisplayText(new string[] { dialogueToDisplay });
+    }
+
+    protected void displayNextSingleDialogue()
+    {
+        UI.DisplayText(new string[] { dialogueOptions[currentDialogueIndex] });
+        currentDialogueIndex++;
+    }
+
+    protected void DisplayNextMultipleText(int numTextsToDisplay)
+    {
+        string[] arr = new string[numTextsToDisplay];
+        for(int i = 0; i < numTextsToDisplay; i++)
+        {
+            ArrayUtility.Add(ref arr, dialogueOptions[currentDialogueIndex + i]);
+        }
+        UI.DisplayText(arr);
+        currentDialogueIndex += numTextsToDisplay;
+    }
 
 }
