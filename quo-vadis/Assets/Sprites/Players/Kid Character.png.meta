@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: ec1f8929198c152448dd8737f4147f8d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Kid Character_0
+    21300002: Kid Character_1
+    21300004: Kid Character_2
+    21300006: Kid Character_3
+    21300008: Kid Character_4
+    21300010: Kid Character_5
+    21300012: Kid Character_6
+    21300014: Kid Character_7
+    21300016: Kid Character_8
+    21300018: Kid Character_9
+    21300020: Kid Character_10
+    21300022: Kid Character_11
+    21300024: Kid Character_12
+    21300026: Kid Character_13
+    21300028: Kid Character_14
+    21300030: Kid Character_15
+    21300032: Kid Character_16
+    21300034: Kid Character_17
+    21300036: Kid Character_18
+    21300038: Kid Character_19
+    21300040: Kid Character_20
+    21300042: Kid Character_21
+    21300044: Kid Character_22
+    21300046: Kid Character_23
+    21300048: Kid Character_24
+    21300050: Kid Character_25
+    21300052: Kid Character_26
+    21300054: Kid Character_27
+    21300056: Kid Character_28
+    21300058: Kid Character_29
+    21300060: Kid Character_30
+    21300062: Kid Character_31
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kid Character_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 219
+        width: 15
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3844303e1694064eaace10a012d1ce8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 218
+        width: 14
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c39d2a47160c8b48aa967285dc83dee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 219
+        width: 15
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4578478a55b92404492115bcff6fb0f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 218
+        width: 14
+        height: 27
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf6489107f103849becd2a6b349ada0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 190
+        width: 15
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41d3c6cd28c89747a0fc36827038ed9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_5
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 189
+        width: 13
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c770f5587249e4c9c26de7569c8372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 190
+        width: 15
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb5e440ded717446bfb5ae4ddb4aed0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_7
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 189
+        width: 13
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be491db6e944ddc43aa381edf9947c47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 158
+        width: 13
+        height: 26
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22bb54f9d661414587c4543f00dd6d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 158
+        width: 15
+        height: 25
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c2d4adf4e1062419171180bd937d06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_10
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 158
+        width: 13
+        height: 26
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ffee36353cc834bbcfd3a042a8940d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_11
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 158
+        width: 15
+        height: 25
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd53cf702ed1cd46bf69c8ef08d9537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 130
+        width: 13
+        height: 26
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9017016746863224fa0484175a4ed4e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_13
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 130
+        width: 15
+        height: 25
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b34455f1599914fb34b4dba0e7e05d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_14
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 130
+        width: 13
+        height: 26
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369bb87188a6df5478f1009e501a4634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_15
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 130
+        width: 15
+        height: 25
+      alignment: 9
+      pivot: {x: 0.46666667, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf7d62f573a4524487ee7a33a6fac9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_16
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 100
+        width: 13
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd33d499e21103d46909120c68bbdc75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_17
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 100
+        width: 13
+        height: 26
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33690e1670197e489a638e5ae252ce6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_18
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 100
+        width: 13
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4fe45f046d531438e79b39ae1db3fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_19
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 100
+        width: 14
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee17a936ae70704da72bfdda009081b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 71
+        width: 13
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a986e8f7890ec6640b531216d1646843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_21
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 71
+        width: 13
+        height: 26
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a52b19690d8923439c5c81625de201c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_22
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 71
+        width: 13
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3134875ba4db5449a7ffd1fbfe984a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_23
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 71
+        width: 14
+        height: 26
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ed911c2f1728f4697d2f53acaf7d65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 41
+        width: 13
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6b39e8cb76bb04e99d71cbcc572ced
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_25
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 40
+        width: 13
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c3c04b82e60be46bad286e64679d09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_26
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 41
+        width: 13
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dfe89abd83b09409106fd0cc3d83c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_27
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 40
+        width: 12
+        height: 27
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c6d42d654868547a6ab8b276fa5398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_28
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 9
+        width: 13
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bef101b4da1f7344b4bf76ea1253129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_29
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 9
+        width: 13
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3158cb0f16122f0498998739320b972e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_30
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 10
+        width: 13
+        height: 27
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd784113f0a560b47a3484d277ac068e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid Character_31
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 10
+        width: 12
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50ef0cbdb78e0b468730a483592122f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 18cad471ed632ed41a0d1c79a19c9fc3
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -24,6 +24,7 @@ public class playerMovementController : MonoBehaviour
         acceleration = playerManager.acceleration;
         rb = playerManager.rb;
         anim = playerManager.anim;
+        anim.SetFloat("yLastDir", -1); //The character faces down orginally
     }
 
     // Update is called once per frame
@@ -109,6 +110,13 @@ public class playerMovementController : MonoBehaviour
         else
         {
             anim.SetBool("isIdleY", false);
+        }
+
+        //Set Last Dir if applicable
+        if(xSpeed != 0 || ySpeed != 0)
+        {
+            anim.SetFloat("xLastDir", xSpeed);
+            anim.SetFloat("yLastDir", ySpeed);
         }
 
     }
