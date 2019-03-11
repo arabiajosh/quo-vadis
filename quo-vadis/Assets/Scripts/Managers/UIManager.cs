@@ -7,6 +7,7 @@ public class UIManager : MonoBehaviour
 
     public Text textCanvas;
 
+    public Animation anim;
     // Use this for initialization
     void Start()
     {
